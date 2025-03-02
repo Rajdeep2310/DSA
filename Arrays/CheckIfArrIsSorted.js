@@ -17,7 +17,7 @@ sort(arr);
 // Second Method 
 
 // let arr2 = [ 23,1,3,24,52,2,0,0,221]
-let arr = [1,2,3,4,5,6,7,0]
+//let arr = [1,2,3,4,5,6,7,0]
 
 function sort(arr){
     for(let i = 0 ; i <= arr.length-1 ; i++){
