@@ -14,3 +14,22 @@ function remove(arr){
 
 
 remove(arr)
+
+
+
+function removeDups(arr){
+    const set = new Set(arr)
+    const uniqueArr = Array.from(set)
+
+    for(let i = 0 ; i < uniqueArr.length; i++){
+        arr[i] === uniqueArr[i]
+
+    }
+    return uniqueArr.length;
+}
+
+let k = removeDups(arr)
+console.log("The unique elements are:")
+for(let j = 0; j < k ; j++ ){
+    console.log( arr[i] )
+}
