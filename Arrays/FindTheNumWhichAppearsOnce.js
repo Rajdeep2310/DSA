@@ -20,3 +20,25 @@ function main(arr){
 }
 
 main(arr)
+
+
+
+let nums = [2,2,1]
+
+function main(nums){
+  let countMap = {}
+  for(let num of nums){
+    if(countMap[num]){
+      countMap[num]++;
+    } else {
+      countMap[num] = 1;
+    }
+  }
+  for(let key in countMap){
+    if(countMap[key] === 1){
+      console.log(countMap[key])
+    }
+  }
+}
+
+main(nums)
